@@ -10,8 +10,9 @@ def my_all?(collection)
 end
 
 
-if block_returns_values.include? (false)
+if block_returns_values.include?(false)
   false
 else
+  true
 end
 end
